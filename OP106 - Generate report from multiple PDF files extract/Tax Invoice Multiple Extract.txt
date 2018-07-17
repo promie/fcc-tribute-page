@@ -1,0 +1,147 @@
+ 
+TAX INVOICE
+ 
+ 
+Attention: Company A
+ 
+Invoice Date: 9 July 2018
+ 
+Invoice Number: INV001
+ 
+ 
+Description                                     Quantity                   Unit Price            GST              Amount AUD 
+   
+ 
+Service provision for 12 mos.           
+       
+1.0                           880.00            10%                          880.00
+ 
+                                                                                                                             
+            
+Subtotal: 880.00
+ 
+           
+                                                                                                                             
+Total GST: 88.00
+ 
+                                                                                                                  
+                    
+Total AUD: 888.00  
+ 
+ 
+ 
+ 
+Due Date: 8 Aug 2018
+ 
+Bank Details for EFT:
+ 
+Bank: CBA
+ 
+BSB: 010
+-
+001
+ 
+Account No : 99999999
+ 
+Name: Code.Sydney Pty Ltd
+ 
+ 
+ 
+ 
+TAX INVOICE
+ 
+ 
+Attention: Company A
+ 
+Invoice Date: 9 July 2018
+ 
+Invoice Number: INV001
+ 
+ 
+Description                                     Quantity                   Unit Price            GST              Amount AUD 
+   
+ 
+Service provision for 12 mos.           
+       
+1.0                           880.00            10%                          880.00
+ 
+                                                                                                                             
+            
+Subtotal: 880.00
+ 
+           
+                                                                                                                             
+Total GST: 88.00
+ 
+                                                                                                                  
+                    
+Total AUD: 888.00  
+ 
+ 
+ 
+ 
+Due Date: 8 Aug 2018
+ 
+Bank Details for EFT:
+ 
+Bank: CBA
+ 
+BSB: 010
+-
+001
+ 
+Account No : 99999999
+ 
+Name: Code.Sydney Pty Ltd
+ 
+ 
+ 
+ 
+TAX INVOICE
+ 
+ 
+Attention: Company A
+ 
+Invoice Date: 9 July 2018
+ 
+Invoice Number: INV001
+ 
+ 
+Description                                     Quantity                   Unit Price            GST              Amount AUD 
+   
+ 
+Service provision for 12 mos.           
+       
+1.0                           880.00            10%                          880.00
+ 
+                                                                                                                             
+            
+Subtotal: 880.00
+ 
+           
+                                                                                                                             
+Total GST: 88.00
+ 
+                                                                                                                  
+                    
+Total AUD: 888.00  
+ 
+ 
+ 
+ 
+Due Date: 8 Aug 2018
+ 
+Bank Details for EFT:
+ 
+Bank: CBA
+ 
+BSB: 010
+-
+001
+ 
+Account No : 99999999
+ 
+Name: Code.Sydney Pty Ltd
+ 
+ 
+ 
