@@ -10,4 +10,4 @@ textOutput = pageObj.extractText()
 fileOutput.write(textOutput)
 fileOutput.close()
 
-print('The file write from PDF to a text file is complete!')
+print('Complete!')
