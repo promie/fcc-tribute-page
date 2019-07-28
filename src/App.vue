@@ -1,26 +1,23 @@
 <template>
   <div id="app">
-    <TributePage title="Evan You"/>
+    <TributePage title="Evan You" />
   </div>
 </template>
 
 <script>
-import TributePage from './components/TributePage'
+import TributePage from "./components/TributePage";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     TributePage
   }
-}
+};
 </script>
 
 <style>
 body {
-  background-image: url('./assets/background.png');
-  height: 100%;
-  background-position: center;
+  background: #f2f2f2;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 </style>
