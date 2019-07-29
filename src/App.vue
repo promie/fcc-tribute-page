@@ -17,7 +17,7 @@ export default {
 
 <style>
 body {
-  background: #f2f2f2;
+  background: #fff;
   background-size: cover;
 }
 </style>
