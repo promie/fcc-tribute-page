@@ -66,11 +66,12 @@ export default {
   justify-content: center;
 }
 
-.content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 30px;
+@media only screen and (min-width: 640px) {
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
 }
 
 .footer {
@@ -93,6 +94,7 @@ export default {
   margin-bottom: 25px;
   margin: 25px;
   border-radius: 8px;
+  align-content: center;
 }
 
 .container {
