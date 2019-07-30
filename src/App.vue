@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <TributePage title="Evan You" />
+    <TributePage />
   </div>
 </template>
 
@@ -16,8 +16,13 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Viga&display=swap");
+
 body {
+  font-family: "Viga", sans-serif;
   background: #fff;
   background-size: cover;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 </style>

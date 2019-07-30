@@ -1,27 +1,26 @@
 <template>
   <div class="app">
-
     <div class="content">
       <div class="content-one">
-        <h3>Box One</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem delectus et aliquam, distinctio, nulla optio id placeat nemo esse beatae atque sint dignissimos cupiditate, corporis sapiente maiores velit amet nihil!</p>
+        <AboutMark title="Mark Zuckerberg" />
       </div>
       <div class="content-two">
-        <img :src="zuckerberg" alt="A Picture of Mark Zuckerberg">
+        <img class="responsive" :src="zuckerberg" alt="A Picture of Mark Zuckerberg" />
       </div>
     </div>
-
   </div>
 </template>
 
 <script>
-import zuckerberg from '../assets/zuckerberg.png'
+import AboutMark from "./AboutMark";
+import zuckerberg from "../assets/zuckerberg.png";
 
 export default {
   name: "TributePage",
-  props: {
-    title: String
+  components: {
+    AboutMark
   },
+  props: {},
   data() {
     return {
       zuckerberg
@@ -31,8 +30,7 @@ export default {
 </script>
 
 <style scoped>
-
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 640px) and (min-width: 400px) {
   .content {
     display: flex;
     justify-content: space-between;
@@ -40,17 +38,21 @@ export default {
   }
 }
 
-.content div {
-  border-style: solid
-}
+/* .content div {
+  border-style: solid;
+} */
 
 .content-one {
-  flex: 5;
+  flex: 1;
 }
 
 .content-two {
-  flex: 5;
+  flex: 1;
 }
 
-
+.responsive {
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+}
 </style>
