@@ -42,6 +42,7 @@ export default {
   border-style: solid;
 } */
 
+
 .content-one {
   flex: 1;
 }
