@@ -1,6 +1,6 @@
 # FCC Tribute Page
 
-## Technology
+## Technologies
 
 Built with:
 
