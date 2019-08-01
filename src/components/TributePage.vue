@@ -35,13 +35,9 @@ export default {
     display: flex;
     justify-content: space-between;
     margin-top: 10vh;
+    background: #fff;
   }
 }
-
-/* .content div {
-  border-style: solid;
-} */
-
 
 .content-one {
   flex: 1;
@@ -52,7 +48,7 @@ export default {
 }
 
 .responsive {
-  width: 60%;
+  width: 65%;
   height: auto;
   margin-left: 20%;
 }

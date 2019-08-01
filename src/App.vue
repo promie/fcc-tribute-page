@@ -20,9 +20,10 @@ export default {
 
 body {
   font-family: "Viga", sans-serif;
-  background:#fff;
+  background: #3b5998;
   background-size: cover;
   margin-left: 50px;
   margin-right: 50px;
+  box-shadow: 3px 3px 5px 6px #ccc;
 }
 </style>
