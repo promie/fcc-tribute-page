@@ -26,6 +26,10 @@ export default {
         : {{ event.desc }}
       </li>
     </ul>
+    <hr />
+    <div class="author">
+      Developed By <span class="promie">Promie Yutasane</span>
+    </div>
   </div>
 </template>
 
@@ -60,6 +64,16 @@ li {
   font-size: 15px;
 }
 
+.author {
+  font-size: 12px;
+  text-align: center;
+  margin: 5px 0px;
+}
+
+.promie {
+  color: #3b5998;
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .large-font {
@@ -75,6 +89,12 @@ li {
   }
   .year-style {
     font-size: 17px;
+  }
+
+  .author {
+    font-size: 15px;
+    text-align: end;
+    padding-right: 50px;
   }
 }
 </style>
