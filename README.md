@@ -1,26 +1,24 @@
-# FCC Tribute Page
-
-## Technologies
-
-Built with:
-
-- VueJS
-- Flexbox
+# fcc-tribute-page
 
 ## Project setup
-
-Install packages
-
 ```
 yarn install
 ```
 
-Run application
-
+### Compiles and hot-reloads for development
 ```
-yarn run serve
+yarn serve
 ```
 
-## Preview
+### Compiles and minifies for production
+```
+yarn build
+```
 
-![alt text](https://github.com/promie/fcc-tribute-page/blob/master/src/assets/preview.png 'App Preview')
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
