@@ -18,15 +18,19 @@ export default {
 
 <template>
   <div class="tribute">
-    <div class="tribute-img">
+    <figure id="img-div" class="tribute-img">
       <img
+        id="image"
         class="zuckerberg"
         v-bind:src="zuckerberg"
         alt="A Picture of Mark Zuckerberg"
       />
-    </div>
+      <figcaption id="img-caption" class="caption">
+        An illustration of Mark Zuckerberg
+      </figcaption>
+    </figure>
 
-    <div class="tribute-details">
+    <div class="tribute-details" id="tribute-info">
       <about-mark v-bind:title="title" />
     </div>
   </div>
@@ -51,7 +55,11 @@ export default {
 }
 
 .zuckerberg {
-  width: 200px;
+  max-width: 200px;
+  display: block;
+  height: auto;
+  padding: 10px 0;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -70,8 +78,15 @@ export default {
   }
 
   .zuckerberg {
-    width: 500px;
+    max-width: 55%;
+    display: block;
+    height: auto;
     padding: 10px 0;
+    margin: 0 auto;
+  }
+
+  .caption {
+    margin-bottom: 10px;
   }
 }
 </style>

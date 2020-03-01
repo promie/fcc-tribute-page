@@ -18,8 +18,8 @@ export default {
 </script>
 
 <template>
-  <div class="about-mark">
-    <h1 class="large-font">{{ title }}</h1>
+  <div id="main" class="about-mark">
+    <h1 class="large-font" id="title">{{ title }}</h1>
     <ul>
       <li class="list-font" v-for="(event, index) in events" v-bind:key="index">
         <span class="year-style">{{ event.year }}</span>
@@ -28,7 +28,23 @@ export default {
     </ul>
     <hr />
     <div class="author">
-      Developed By <span class="promie">Promie Yutasane</span>
+      Developed By
+      <span class="promie"
+        ><a href="https://github.com/promie" id="tribute-link" target="_blank"
+          >Promie Yutasane</a
+        ></span
+      >
+    </div>
+    <div class="source-code">
+      Github
+      <span class="github"
+        ><a
+          href="https://github.com/promie/fcc-tribute-page"
+          id="github-link"
+          target="_blank"
+          >Source Code</a
+        ></span
+      >
     </div>
   </div>
 </template>
@@ -70,8 +86,20 @@ li {
   margin: 5px 0px;
 }
 
-.promie {
+.source-code {
+  font-size: 12px;
+  text-align: center;
+  margin: 5px 0px;
+}
+
+.promie a {
   color: #3b5998;
+  text-decoration: none;
+}
+
+.github a {
+  color: #3b5998;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -92,6 +120,12 @@ li {
   }
 
   .author {
+    font-size: 15px;
+    text-align: end;
+    padding-right: 50px;
+  }
+
+  .source-code {
     font-size: 15px;
     text-align: end;
     padding-right: 50px;
